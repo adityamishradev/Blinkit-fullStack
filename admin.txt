@@ -1,0 +1,15 @@
+s1 - NODE_ENV=DEVELOPMENT
+✔️ Step 2: Browser me jao:
+http://localhost:3000/admin/create
+
+
+Ye chalate hi:
+
+✔️ Admin user create ho jayega
+✔️ Credentials ye honge:
+
+Email: admin@blink.com
+
+Password: admin
+
+http://localhost:3000/admin/login
