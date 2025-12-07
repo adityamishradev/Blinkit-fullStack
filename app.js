@@ -8,7 +8,7 @@ const categoriesRouter = require("./routes/category");
 const userRouter = require("./routes/user");
 const cartRouter = require("./routes/cart");
 const orderRouter = require("./routes/order");
-
+const port = process.env.PORT || 4000 
 const expressSession = require("express-session");
 const path = require("path");
 const cookieParser = require("cookie-parser");
@@ -45,4 +45,6 @@ app.use("/cart", cartRouter);
 app.use("/payment", paymentRouter);
 app.use("/order", orderRouter);
 
-app.listen(3000);
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
+})
