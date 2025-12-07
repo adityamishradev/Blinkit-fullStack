@@ -7,7 +7,7 @@ passport.use(
     {
       clientID: process.env.GOOGLE_CLIENT_ID,
       clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-      callbackURL: "https://blinkit-fullstack-3.onrender.com/auth/google/callback",
+      callbackURL: "https://blinkit-fullstack-00.onrender.com/auth/google/callback",
     },
     async function (accessToken, refreshToken, profile, cb) {
       try {
